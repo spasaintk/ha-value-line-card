@@ -1,0 +1,17 @@
+{
+  "name": "ha-value-line-card",
+  "version": "1.0.0",
+  "description": "A Home Assistant Lovelace card: an auto-scaling line chart whose colour follows the value against configurable thresholds.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/value-line-card.js --bundle --minify --format=esm --outfile=dist/value-line-card.js --legal-comments=none"
+  },
+  "keywords": ["home-assistant", "lovelace", "custom-card", "apexcharts"],
+  "author": "spasaintk",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/spasaintk/ha-value-line-card.git" },
+  "devDependencies": {
+    "esbuild": "^0.24.2"
+  }
+}
